@@ -49,3 +49,7 @@ function sum(a, b, c){
 }
 let input = [5,9,6];
 ResultContainer.innerHTML = sum(...input);  //20
+
+import { Animal } from './modules/Animals.js';
+let dog = new Animal('dog');
+console.log(dog.getType());
