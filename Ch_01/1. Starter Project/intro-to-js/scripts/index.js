@@ -44,12 +44,24 @@ var ResultContainer = document.getElementById("ResultContainer");
 // ResultContainer.innerHTML = Fruit1;  // Apple
 
 // destructuring in functions
-function sum(a, b, c){
-    return a+b+c;
-}
-let input = [5,9,6];
-ResultContainer.innerHTML = sum(...input);  //20
+// function sum(a, b, c){
+//     return a+b+c;
+// }
+// let input = [5,9,6];
+// ResultContainer.innerHTML = sum(...input);  //20
 
 import { Animal } from './modules/Animals.js';
 let dog = new Animal('dog');
 console.log(dog.getType());
+
+var header = document.getElementsByTagName("h1");
+var body = document.getElementById("ResultContainer");
+var footer = document.getElementsByClassName("Footer");
+console.log(header);
+console.log(body);
+console.log(footer);
+
+header[0].textContent = "Header Text from JS";
+header[0].setAttribute('isHeader','True');
+header[0].style.border = '2px solid black';
+console.log(header[0]);
