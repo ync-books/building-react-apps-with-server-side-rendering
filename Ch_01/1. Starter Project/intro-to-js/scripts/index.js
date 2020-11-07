@@ -65,3 +65,18 @@ header[0].textContent = "Header Text from JS";
 header[0].setAttribute('isHeader','True');
 header[0].style.border = '2px solid black';
 console.log(header[0]);
+
+try{
+    var fruit = new Fruit();
+}
+catch(e){
+    console.log('ERROR: ' + e.message);
+}
+console.log('rest of the code!');
+
+try{
+    throw new Error('Custom Developer Error!');
+}
+catch(e){
+    console.log('ERROR: ' + e.message);
+}
