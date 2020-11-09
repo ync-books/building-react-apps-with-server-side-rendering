@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c537d193-7d06-415b-8b43-94be31835f30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../intro-to-js/scripts/arrays/arr1_basic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-js/scripts/arrays/arr2_methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-js/scripts/classes/dog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-js/scripts/classes/dog2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-js/scripts/classes/module/Animal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-js/scripts/classes/module/dog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-js/scripts/closures/clor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-js/scripts/functions/fun1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-js/scripts/loop/doWhile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-js/scripts/loop/for.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-js/scripts/loop/forEach.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-js/scripts/loop/while.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-js/scripts/operators/operator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../intro-to-js/scripts/typeConversion/convert1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-js/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-to-js/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../intro-to-js/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../intro-to-js/scripts/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1juXU7CfrMUaqX6C87qOcg9Wu4B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c537d193-7d06-415b-8b43-94be31835f30" name="Default Changelist" comment="" />
+      <created>1604654962333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604654962333</updated>
+      <workItem from="1604654963421" duration="529000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
