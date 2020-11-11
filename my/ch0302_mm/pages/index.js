@@ -1,5 +1,6 @@
 import React from  'react'
 import GetLink from "../components/DynamicRouter";
+import Link from "next/link";
 function MyComponent(){
     return (
         <div>
@@ -15,6 +16,10 @@ function MyComponent(){
                      Disp='page-3'
                      Class='img p3'>
             </GetLink>
+            <Link href="GithubUsers">
+                <a>Github Users</a>
+            </Link>
+
         </div>
     )
 }
