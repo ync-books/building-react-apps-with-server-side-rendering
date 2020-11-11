@@ -1,5 +1,4 @@
 import React from  'react'
-import Link from 'next/link'
 import GetLink from '../components/DynamicRouter'
 function MyComponent(){
     return (
