@@ -5,7 +5,7 @@ const InitialTextState = {
     text: 'Initial label value.'
 }
 
-// COUNTER REDUCER
+// LABEL REDUCER
 const textLabelReducer = (state = InitialTextState, { type, payload }) => {
     switch (type) {
         case types.UPDATE:

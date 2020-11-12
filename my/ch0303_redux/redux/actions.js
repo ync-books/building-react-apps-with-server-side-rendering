@@ -1,5 +1,6 @@
 import * as types from './types'
 
+// LABEL ACTIONS
 export const changeLabel = (v) => dispatch => {
     //console.log('v', v)
     return dispatch({
