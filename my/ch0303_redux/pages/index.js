@@ -1,12 +1,13 @@
 import React, {useEffect} from  'react'
-import { useDispatch } from 'react-redux'
+import { useSelector, useDispatch } from 'react-redux'
 import { changeLabel } from '../redux/actions'
 
 const Index = () => {
+    const textLabel = useSelector((state) => state.text)
     const dispatch = useDispatch()
-    // useEffect(() => {
-    //     dispatch(startClock())
-    // }, [dispatch])
+    useEffect(() => {
+        dispatch(changeLabel())
+    }, [dispatch])
 
     return (
         <div>
@@ -15,13 +16,14 @@ const Index = () => {
             <div className="center">
                 <input id="inputTextbox" type="text">
                 </input>
-                <button type="button"
-                        onClick={dispatch(changeLabel())}>
+                <button onClick={() => dispatch(changeLabel(document.getElementById('inputTextbox').value))}>
                     Update Label
                 </button>
             </div>
             <br />
-            <p>{this.props.text}</p>
+            <h1>
+                Count: <span>{textLabel}</span>
+            </h1>
         </div>
     )
 }

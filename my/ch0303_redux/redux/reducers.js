@@ -9,6 +9,7 @@ const InitialTextState = {
 const textLabelReducer = (state = InitialTextState, { type, payload }) => {
     switch (type) {
         case types.UPDATE:
+            console.log('payload', payload)
             return {
                 text: !!payload.text,
             }
