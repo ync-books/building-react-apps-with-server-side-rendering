@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Index extends React.Component{
     constructor(props) {
@@ -24,7 +25,12 @@ class Index extends React.Component{
     render() {
         return (
             <div>
-                <h1>Time: {this.state.time}</h1>
+                <div className="jumbotron text-center">
+                    <h1>Digital Clock with React, Next.js, and Bootstrap</h1>
+                </div>
+                <div className="text-center">
+                    <p>Time: {this.state.time}</p>
+                </div>
             </div>
         )
     }
