@@ -3,11 +3,12 @@ import { useSelector, useDispatch } from 'react-redux'
 import { changeLabel } from '../redux/actions'
 
 const Index = () => {
-    const textLabel = useSelector((state) => state.text)
+    const {text: textLabel} = useSelector((state) => state.textLabel)
+    {console.log('textLabel', textLabel)}
     const dispatch = useDispatch()
-    useEffect(() => {
-        dispatch(changeLabel())
-    }, [dispatch])
+    // useEffect(() => {
+    //     dispatch(changeLabel())
+    // }, [dispatch])
 
     return (
         <div>
@@ -22,7 +23,7 @@ const Index = () => {
             </div>
             <br />
             <h1>
-                Count: <span>{textLabel}</span>
+                <span>{textLabel}</span>
             </h1>
         </div>
     )

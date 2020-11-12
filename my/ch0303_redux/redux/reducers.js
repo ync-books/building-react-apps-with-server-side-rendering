@@ -2,16 +2,16 @@ import { combineReducers } from 'redux'
 import * as types from './types'
 
 const InitialTextState = {
-    text: 'Initial label value0.'
+    text: 'Initial label value.'
 }
 
 // COUNTER REDUCER
 const textLabelReducer = (state = InitialTextState, { type, payload }) => {
     switch (type) {
         case types.UPDATE:
-            console.log('payload', payload)
+            //console.log('payload', payload)
             return {
-                text: !!payload.text,
+                text: payload.text,
             }
         default:
             return state
