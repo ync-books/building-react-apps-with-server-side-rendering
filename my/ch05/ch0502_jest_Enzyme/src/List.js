@@ -4,9 +4,9 @@ function List(props) {
     if (!items.length) {
         return(
             <span className="empty-message">
-          No items in list
-        </span>
-    );
+              No items in list
+            </span>
+        );
     }
     return (
         <ul className="list-items">
